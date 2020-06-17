@@ -1,0 +1,208 @@
+body {
+  cursor: url(http://cur.cursors-4u.net/nature/nat-4/nat355.ani),
+    url(http://cur.cursors-4u.net/nature/nat-4/nat355.png), auto !important;
+  background-image: url("../images/pattern1.png");
+  font-family: Montserrat;
+}
+a {
+  cursor: url(http://cur.cursors-4u.net/others/oth-6/oth646.cur), auto !important;
+}
+h1 {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.btn:hover {
+  cursor: url(http://cur.cursors-4u.net/others/oth-6/oth646.cur), auto !important;
+}
+.catch {
+  letter-spacing: 1rem;
+}
+
+/* Title */
+.align-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bg-nav {
+  background-color: #e3f2fd;
+  box-shadow: 0 20px 10px -10px #e3f2fd;
+  margin: 0 -21.5%;
+}
+.container-fluid {
+  padding: 0 15% 10%;
+}
+.download-btn {
+  margin: 5% 3% 5% 0;
+  width: 200px;
+}
+.navbar {
+  margin: 0 15%;
+  padding: 10px 0 0;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.title-img {
+  margin: 5% 0 5% 10%;
+  position: absolute;
+  transform: rotate(25deg);
+  width: 300px;
+}
+#bg-container {
+  background-image: url("../images/pattern.png");
+  background-repeat: repeat;
+  padding-top: 0;
+}
+#welcome {
+  padding-top: 3rem;
+}
+@media (max-width: 1028px) {
+  .align-middle-mobile {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .container-fluid {
+    padding: 0 15%;
+  }
+  .title-img {
+    margin: 0;
+    position: static;
+    transform: rotate(0deg);
+  }
+  #welcome {
+    text-align: center;
+  }
+}
+
+/* Features */
+.feature-item {
+  padding: 0 30px;
+  text-align: center;
+}
+.feature-item > h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+.feature-item > i {
+  color: #b3d9ff;
+}
+.feature-item > i:hover {
+  color: #007bff;
+  font-size: 3rem;
+}
+.feature-item > p {
+  color: #8f8f8f;
+}
+#features {
+  background-color: #f7fbff;
+  box-shadow: 0 20px 10px #f7fbff, 0 -20px 10px #f7fbff;
+  padding: 5% 10%;
+  position: relative;
+}
+
+/* Testimonials */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+.carousel-item {
+  padding: 5% 10%;
+}
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#testimonials {
+  text-align: center;
+}
+
+/* Press */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* Pricing */
+.card {
+  position: relative;
+  height: 100%;
+}
+.card-body-img {
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+.pricing-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+#pricing {
+  background-color: rgba(247, 251, 255, 0.6);
+  padding: 100px;
+  text-align: center;
+}
+
+/* Call to Action */
+.download-btn-btm {
+  width: 200px;
+  margin: 2%;
+}
+#cta {
+  background-color: #dfedfb;
+  box-shadow: 0 20px 10px #dfedfb, 0 -20px 10px #dfedfb;
+  padding: 50px 0 0;
+  text-align: center;
+}
+
+/* Footer */
+.footer-icon {
+  margin: 0 10px 40px;
+  font-size: 1.5rem;
+}
+.footer-icon:hover {
+  color: #007bff;
+}
+#footer {
+  text-align: center;
+  margin: 80px 0 10px;
+}
+
+/* Color Palette
+  #007bff - Boostrap Primary 
+  #f7fbff
+  #e3f2fd
+  #dfedfb
+  #b3d9ff
+  #8f8f8f
+*/
